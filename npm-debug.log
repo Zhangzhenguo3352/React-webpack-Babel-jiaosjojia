@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle babel@1.0.0~prebuild: babel@1.0.0
+6 silly lifecycle babel@1.0.0~prebuild: no script for prebuild, continuing
+7 info lifecycle babel@1.0.0~build: babel@1.0.0
+8 verbose lifecycle babel@1.0.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle babel@1.0.0~build: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\phpStudy\WWW\my-webpack-LuYo-1\React-webpack-Babel-jiaosjojia\node_modules\.bin;C:\Program Files\nodejs;C:\Users\Administrator\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\Administrator\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Roaming\npm;D:\AppServ\Apache24\bin;D:\AppServ\php5;D:\AppServ\MySQL\bin;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+10 verbose lifecycle babel@1.0.0~build: CWD: D:\phpStudy\WWW\my-webpack-LuYo-1\React-webpack-Babel-jiaosjojia
+11 silly lifecycle babel@1.0.0~build: Args: [ '/d /s /c',
+11 silly lifecycle   'npm run clean && webpack --history-api-fallback --progress --color --config webpack.prod.config.js' ]
+12 silly lifecycle babel@1.0.0~build: Returned: code: 1  signal: null
+13 info lifecycle babel@1.0.0~build: Failed to exec build script
+14 verbose stack Error: babel@1.0.0 build: `npm run clean && webpack --history-api-fallback --progress --color --config webpack.prod.config.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid babel@1.0.0
+16 verbose cwd D:\phpStudy\WWW\my-webpack-LuYo-1\React-webpack-Babel-jiaosjojia
+17 error Windows_NT 10.0.10586
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+19 error node v5.9.0
+20 error npm  v3.7.3
+21 error code ELIFECYCLE
+22 error babel@1.0.0 build: `npm run clean && webpack --history-api-fallback --progress --color --config webpack.prod.config.js`
+22 error Exit status 1
+23 error Failed at the babel@1.0.0 build script 'npm run clean && webpack --history-api-fallback --progress --color --config webpack.prod.config.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the babel package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run clean && webpack --history-api-fallback --progress --color --config webpack.prod.config.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs babel
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls babel
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
